@@ -9,28 +9,14 @@ section{
   margin: 15px;
 }
 
+.section_exp{
+  height: 763;
+  width: 364;
+}
+
 main{
   width: 850px;
   margin: 0 auto;
-}
-
-h3{
-  color: #464646;
-  padding-left: 20px;
-  padding-top: 15px;
-}
-
-img.git{
-  
-
-}
-
-img.stack{
-  width: 85px;
-  height: 85px;
-  /*position: relative;*/
-  bottom: 70px;
-  
 }
 
 a{
@@ -42,18 +28,18 @@ a.a1{
   color:mediumblue;
 }
 
-hr{
+.hrt{
   border-top: 1px solid #ededed;
-  border-top-color: rgb(231, 229, 229);
+  border-top-color: rgb(237, 237, 237);
   border-top-style: solid;
   border-top-width: 1px;
-  box-sizing: border-box;
   list-style: none;
   list-style-position: outside;
   list-style-image: none;
   list-style-type: none;
-  bottom: 110px;
-  margin: 20px;
+  box-sizing: border-box;
+  margin-left: 22px;
+  margin-right: 22px;  
 }
 
 .contr{
@@ -62,22 +48,12 @@ display: flex;
 
 .contr .contr__title{
   color: #464646;
-  margin-left: 70px;
-
-  /*position: relative;*/
-  /*bottom: 100px;*/
+  margin-left: 20px;
 }
 
 .contr .contr__text{
- padding-left: 10px;
- /*position: relative;*/
- /*margin-left: 81px;*/
- /*bottom: 100px;*/
+ padding-left: 20px;
  line-height: 1.5em;
-}
-
-.contr .contr_stack{
-
 }
 
 .display{
@@ -88,27 +64,15 @@ display: flex;
   flex-wrap: nowrap;
 }
 
-.display > div {
-  border: 1px solid red;
-  padding: 25px;
-  flex: 1 1 100px;
-}
 
 .align-self{
    align-self: flex-end;
 }
 
-.img{
-  width: 50px;
-  height: 50px;
-} 
-
 .contr_image{
-  
-}
-
-.div_github{
-
+  width: 61px;
+  height: 61px;
+  margin-left: 10px;
 }
 
 .contr__content{
