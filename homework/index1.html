@@ -11,6 +11,55 @@
 
 <body>
     <main>
+        <div class="sidenav">
+            <div class="sidenav_avatar">
+                <img class="sidenav_avatar" src="https://i.ytimg.com/vi/oYFoNENPA-A/maxresdefault.jpg">
+            </div>
+            <h2 class="sidenav_title">
+                Артём Маслов
+            </h2>
+            <p class="sidenav_text">
+                React + Redux/Reatom + NodeJs • Бэкенд разработчик • Фронтенд разработчик • Старший (Senior)
+            </p>
+            <span class="sidenav_span">От 1500 ₽ • Не ищу работу</span>
+            <select name="select" size="1">
+                <option value="s1">Распечатать резюме</option>
+                <option value="s2">Скачать резюме в PDF</option>
+                <option value="s3">Скачать резюме в DOC</option>
+            </select>
+        </div>
+
+        <div class="sidenav1">
+            <div class="sidenav1_div">
+               <span class="sidenav1_span1">Возраст:</span>
+               25 лет
+            </div>
+            <div class="sidenav1_div">
+                <span class="sidenav1_span1">Опыт работы:</span>
+                6 лет и 1 месяц
+             </div>
+             <div class="sidenav1_div">
+                <span class="sidenav1_span1">Регистрация:</span>
+                03.05.2017 
+             </div>
+             <div class="sidenav1_div">
+                <span class="sidenav1_span1">Послений визит:</span>
+                1 неделю назад 
+             </div>
+             <div class="sidenav1_div">
+                <span class="sidenav1_span1">Местоположение:</span>
+                <span>Россия, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Краснодар</span>
+             </div>
+             <div class="sidenav1_div">
+                <span class="sidenav1_span1">Дополнительно:</span>
+                готов к удалённой &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;работе 
+             </div>
+             <div class="sidenav1_div">
+                <span class="sidenav1_span1">Профессиональные навыки</span>
+                 <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;React • Redux • Разработка через &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;тестирование • Node.js • Docker • &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next.js • NestJS • MongoDB • MySQL • &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux</div>
+             </div>
+        </div>
+
         <section>
             <div class="contr">
                 <div class="contr__content">
@@ -70,41 +119,43 @@
 
         </section>
 
-        <section>
-            <div class="contr">
-                <h3 class="contr__title">Опыт работы</h3>
-                <h2 class="contr__title"><a href="https://greendata.io/">GreenData</a></h2>
-                <p></p>
+        <section class="section1">
+            <div class="contr1">
+                <div class="contr__content">
+                    <h3 class="contr__title1">Опыт работы</h3>
+                    <div class="contr_image">
+                        <img class="contr_image"
+                            src="data:image/png;base64,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">
+                    </div>
+                    <h2 class="contr__title__h2">
+                       GreenData
+                    </h2>
+                    <p class="contr__text1">
+                        Разрабатываем low-code платформу GreenData, обеспечивающую создание бизнес-<br>приложений любой сложности<br>
+                        Пермь • От 100 до 1000 сотрудников
+                        
+                    </p>
+                    <h4 class="contr__title__h4">Фронтенд разработчик</h4>
+                    <div class="text_green">
+                    <p class="contr__text3">
+                        Август 2020 — Июнь 2021 (11 месяцев)<br>
+                        
+                    </p>
+                    <p class="contr__text3">Разработка новых компонентов и правка уже имеющихся<br>
+                        Т.к. веб приложение очень сложное то требуется очень аккуратно вносить изменения, что бы это не повредило другим частям приложения<br>
+                        
+                        Правка верстки<br>
+                        
+                        Обязательное код-ревью всех правок<br>
+                        React • TypeScript • Jest • MobX • Agile</p>
+                    </div>
+                </div>
             </div>
+            
+           
         </section>
 
     </main>
-
-
-
-
-
-
-
-
-
-
-    <!--
-    <div class="display">
-
-        <div class="align-self">gfhgf</div>
-        <div>ghgf</div>
-        <div>hgfhgf</div>
-        <div>ghfgh</div>
-
-        <div>ghgf</div>
-        <div>hgfhgf</div>
-        <div>ghfgh</div>
-        <div>ghgf</div>
-        <div>hgfhgf</div>
-        <div>ghfgh</div>
-    </div> 
-    -->
 </body>
 
 </html>

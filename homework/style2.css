@@ -52,9 +52,21 @@ display: flex;
   height: 200px;
 }
 
+.contr2{
+  height: 400px;
+}
+
 .contr__title__h2{
   margin-left: 90px;
   bottom: 75px;
+  position: relative;
+  color: #464646;
+  font-family: PT Sans,sans-serif;
+}
+
+.contr__title__h4{
+  margin-left: 90px;
+  bottom: 70px;
   position: relative;
   color: #464646;
   font-family: PT Sans,sans-serif;
@@ -94,6 +106,15 @@ display: flex;
   font-family: PT Sans,sans-serif;
  }
 
+ .contr1 .contr__text3{
+  margin-left: 90px;
+  position: relative;
+  bottom: 92px;
+  line-height: 2.5em;
+  color: #464646;
+  font-family: PT Sans,sans-serif;
+ }
+
 .display{
   display: flex;
   flex-direction: row;
@@ -118,8 +139,90 @@ display: flex;
 
 }
 
-@media(max-width: 1024px){
-  body{background-color: red}
+.sidenav {
+  height: 460px;
+  width: 300px; 
+  position:absolute; 
+  background-color: white; 
+  overflow-x: hidden; 
+  left: 230px;
+  border-radius: 5px;
 }
 
+.sidenav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
 
+.sidenav_avatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+
+.sidenav_title{
+  color: #464646;
+  position: relative;
+  font-family: PT Sans,sans-serif;
+  padding-top: 30px;
+  margin-left: 30px;
+}
+
+.sidenav_text{
+  margin-left: 30px;
+  position: relative;
+  bottom: 10px;
+  line-height: 1.5em;
+  color: #464646;
+  font-family: PT Sans,sans-serif;
+}
+
+.sidenav_span{
+  margin-left: 30px;
+  font-family: PT Sans,sans-serif;
+  font-weight: 700;
+  color: #65c178;
+}
+
+.sidenav1 {
+  height: 460px;
+  width: 300px; 
+  position:absolute; 
+  background-color: white; 
+  overflow-x: hidden; 
+  left: 230px;
+  border-radius: 5px;
+  top: 485px;
+}
+
+.sidenav1 a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav1_span1{
+  margin-left: 30px;
+  font-family: PT Sans,sans-serif;
+  font-weight: 300;
+  color: #999;
+}
+
+.sidenav1_div{
+  padding-top: 10px;
+  font-family: PT Sans,sans-serif;
+  color: #464646;
+}
+
+.section1{
+  height: 700px; 
+}
+
+.text_green{
+  
+}
