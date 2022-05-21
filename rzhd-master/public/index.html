@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TypeScript template</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form id="form" class="route-search">
+    <div class="route-search__input-box">
+      <input name="src" autocomplete="off">
+      <ul class="route-search__suggest route-search__suggest_open" id="route-search-src-suggest">
+        <li class="elastic" data-source="name">Майкоп</li>
+        <li class="elastic" data-source="name">Краснодар</li>
+        <li class="elastic" data-source="name">Адлер</li>
+      </ul>
+    </div>    
+    <div class="route-search__divider">
+    </div>    
+    <div class="route-search__input-box">
+      <input name="dst" autocomplete="off" id="elastic">
+      <ul class="route-search__suggest" id="route-search-dst-suggest">
+        <li>Майкоп</li>
+        <li >Краснодар</li>
+        <li class="elastic" data-source="name">Адлер</li>
+      </ul>
+    </div>  
+    <div class="route-search__divider">  
+    </div>    
+    <div class="route-search__submit-box">
+      <button type="submit">
+        ПОИСК
+      </button>
+    </div>    
+    <template id="route-search__suggest-item">
+      <li class="route-search__suggest-item" data-source="name"></li>
+    </template>
+  </form>
+
+
+<section class="section">
+  <div class="section__left-content">
+    <h3 class="section__title">Станции</h3>
+
+    <ul class="station-list" id="station-list">
+      <template id="station-list-item">
+        <li class="station-list__item">
+          <h4 class="station-list__title" data-source="name">Кисловодск</h4>
+          <div class="station-list__info">
+            <span class="data">
+              <span class="data__name">ID:</span>
+              <span class="data__value" data-source="id">2</span>
+            </span>
+          </div>
+        </li>
+      </template>
+    </ul>
+  </div>
+  <div class="section__right-content">
+    <h3 class="section__title">Маршруты</h3>
+
+    <ul class="station-list" id="route-list">
+      <template id="route-list-item">
+        <li class="station-list__item">
+          <h4 class="station-list__title" data-source="name">Кисловодск</h4>
+          <div class="station-list__info">
+            <span class="data">
+              <span class="data__name">ID:</span>
+              <span class="data__value" data-source="id">2</span>
+            </span>
+          </div>
+        </li>
+      </template>
+    </ul>
+  </div>
+</section>
+
+
+<script src="utils.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+<script src="hint.js"></script>
+</body>
+
+</html>
